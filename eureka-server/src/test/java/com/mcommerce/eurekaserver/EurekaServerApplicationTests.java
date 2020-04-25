@@ -1,4 +1,4 @@
-package com.ecommerce.eurekaserver;
+package com.mcommerce.eurekaserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
