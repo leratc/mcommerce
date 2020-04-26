@@ -1,6 +1,8 @@
 package com.clientui.beans;
 
+
 public class ProductBean {
+
     private int id;
 
     private String titre;
@@ -11,16 +13,7 @@ public class ProductBean {
 
     private Double prix;
 
-
     public ProductBean() {
-    }
-
-    public ProductBean(int id, String titre, String description, String image, Double prix) {
-        this.id = id;
-        this.titre = titre;
-        this.description = description;
-        this.image = image;
-        this.prix = prix;
     }
 
     public int getId() {
@@ -73,5 +66,4 @@ public class ProductBean {
                 ", prix=" + prix +
                 '}';
     }
-
 }
